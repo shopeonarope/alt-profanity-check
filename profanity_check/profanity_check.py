@@ -7,9 +7,7 @@ import joblib
 vectorizer = joblib.load(
     resources.files("profanity_check") / "data" / "vectorizer.joblib"
 )
-model = joblib.load(
-    resources.files("profanity_check") / "data" / "model.joblib"
-)
+model = joblib.load(resources.files("profanity_check") / "data" / "model.joblib")
 
 
 def _get_profane_prob(prob):
