@@ -1,5 +1,10 @@
 # Changelog
 
+## Version 1.4.1
+
+* scikit-learn to 1.4.1 (1.4.1.post1)
+* Migrated pkg_resources to importlib.resources
+
 ## Version 1.3.2
 
 * Teaching Python Note on README
