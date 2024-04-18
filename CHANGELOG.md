@@ -4,6 +4,10 @@
 
 * scikit-learn to 1.4.2
 
+## Next Version
+
+* Updated Github Actions
+
 ## Version 1.4.1
 
 * scikit-learn to 1.4.1 (1.4.1.post1)
