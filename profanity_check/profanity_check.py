@@ -1,4 +1,5 @@
 """Profanity check exposed methods"""
+
 import sys
 
 #

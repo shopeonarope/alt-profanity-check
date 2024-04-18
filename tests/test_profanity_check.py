@@ -1,4 +1,5 @@
 """(Mostly smoke) tests"""
+
 from profanity_check import predict, predict_prob
 
 

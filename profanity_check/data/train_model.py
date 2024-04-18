@@ -1,4 +1,5 @@
 """Train Model from data"""
+
 import hashlib
 import subprocess
 import sys
