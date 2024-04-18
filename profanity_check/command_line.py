@@ -1,4 +1,5 @@
 """For Command Line Interface"""
+
 import sys
 
 from .profanity_check import predict

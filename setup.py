@@ -1,4 +1,5 @@
 """Setup"""
+
 from pathlib import Path
 import setuptools
 
