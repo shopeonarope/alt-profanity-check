@@ -1,5 +1,9 @@
 # Changelog
 
+## Version 1.5.0
+
+* scikit-learn to 1.5.0
+
 ## Version 1.4.2
 
 * scikit-learn to 1.4.2
