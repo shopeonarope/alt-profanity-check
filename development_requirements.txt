@@ -6,3 +6,5 @@
 pytest==8.2.1
 pylint==3.2.2
 black==24.4.2
+setuptools==70.0.0
+
