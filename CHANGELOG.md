@@ -3,6 +3,7 @@
 ## Version 1.5.0
 
 * scikit-learn to 1.5.0
+* Drop of Python 3.8 and updated README
 
 ## Version 1.4.2
 

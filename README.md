@@ -84,7 +84,19 @@ See the How section below for more details on the dataset used for these results
 $ pip install alt-profanity-check
 ```
 
-### For older Python versions
+### Older Python Versions
+
+Reference: <https://scikit-learn.org/stable/install.html>
+
+> Scikit-learn 0.20 was the last version to support Python 2.7 and Python 3.4. Scikit-learn 
+> 0.21 supported Python 3.5-3.7. Scikit-learn 0.22 supported Python 3.5-3.8. Scikit-learn 0.23-0.24 
+> required Python 3.6 or newer. Scikit-learn 1.0 supported Python 3.7-3.10. Scikit-learn 1.1, 1.2 and 1.3 
+> support Python 3.8-3.12 Scikit-learn 1.4 requires Python 3.9 or newer.
+
+#### Python 3.8
+
+Seems that for some reason 1.4.* branches worked with Python 3.8 with that in mind last Python 3.8 version of this
+libreary supported is **1.4.2**.
 
 #### Python 3.7
 
