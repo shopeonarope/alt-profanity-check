@@ -17,8 +17,8 @@ when we trained the models.
 Last but not least we aim to clean up the codebase a bit and **maybe** introduce some features or
 datasets.
 
-| Learn Python from the Maintainer of alt-profanity-check 🎓🧑‍💻️⌨️                                                                                                                                                                                                            |
-| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Learn Python from the Maintainer of alt-profanity-check 🎓🧑‍💻️⌨️                                                                                                                                                                                                         |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | I am teaching Python through Mentorcruise, aiming both to beginners and seasoned developers who want to get to the next level in their learning journey: <https://mentorcruise.com/mentor/dimitriosmistriotis/>. Please mention that you found me through this repository. |
 
 ## Changelog
@@ -58,7 +58,7 @@ A benchmark (performed December 2018 on a new 2018 Macbook Pro) using
 the following results:
 
 | Package          | 1 Prediction (ms) | 10 Predictions (ms) | 100 Predictions (ms) |
-| ---------------- | ----------------- | ------------------- | -------------------- |
+|------------------|-------------------|---------------------|----------------------|
 | profanity-check  | 0.2               | 0.5                 | 3.5                  |
 | profanity-filter | 60                | 1200                | 13000                |
 | profanity        | 0.3               | 1.2                 | 24                   |
@@ -71,7 +71,7 @@ benchmark!
 This table speaks for itself:
 
 | Package          | Test Accuracy | Balanced Test Accuracy | Precision | Recall | F1 Score |
-| ---------------- | ------------- | ---------------------- | --------- | ------ | -------- |
+|------------------|---------------|------------------------|-----------|--------|----------|
 | profanity-check  | 95.0%         | 93.0%                  | 86.1%     | 89.6%  | 0.88     |
 | profanity-filter | 91.8%         | 83.6%                  | 85.4%     | 70.2%  | 0.77     |
 | profanity        | 85.6%         | 65.1%                  | 91.7%     | 30.8%  | 0.46     |
@@ -80,8 +80,8 @@ See the How section below for more details on the dataset used for these results
 
 ## Installation
 
-```
-$ pip install alt-profanity-check
+```shell
+pip install alt-profanity-check
 ```
 
 ### Older Python Versions
@@ -100,13 +100,7 @@ libreary supported is **1.4.2**.
 
 #### Python 3.7
 
-From Scikit-learn's [Github page](https://github.com/scikit-learn/scikit-learn):
-
-> scikit-learn 1.0 and later require Python 3.7 or newer.
-> scikit-learn 1.1 and later require Python 3.8 or newer.
-
-Which means that from 1.1.2 and later, Python 3.7 is not supported, hence:
-If you are using 3.6 pin alt-profanity-check to **1.0.2.1**.
+From 1.1.2 and later, Python 3.7 is not supported, hence if you are using 3.6 pin alt-profanity-check to **1.0.2.1**.
 
 #### Python 3.6
 
