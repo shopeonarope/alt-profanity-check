@@ -9,7 +9,7 @@ jobs:
     strategy:
       matrix:
         # For quotes on 3.10: https://github.com/actions/setup-python/issues/160
-        python_version: [3.9, '3.10', 3.11, 3.12]
+        python_version: [3.9, "3.10", 3.11, 3.12]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -24,10 +24,10 @@ jobs:
     strategy:
       matrix:
         # For quotes on 3.10: https://github.com/actions/setup-python/issues/160
-        python_version: [3.9, '3.10', 3.11, 3.12]
+        python_version: [3.9, "3.10", 3.11, 3.12]
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v1
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python_version }}
       - run: |
