@@ -1,5 +1,6 @@
 #
-# Under Construction
+# Upload Release with Twine for tags starting with "v".
+#
 # References:
 #
 # https://futurestud.io/tutorials/github-actions-run-a-workflow-when-creating-a-tag
@@ -35,4 +36,4 @@ jobs:
       - run: python setup.py sdist
       # Note: if version from tag and one from within setup.py do not match,
       #       next step will fail. Let it as is for an additional check.
-      - run: twine upload "dist/alt-profanity-check-${{ steps.get_version.outputs.VERSION }}.tar.gz"
+      - run: twine upload "dist/alt_profanity_check-${{ steps.get_version.outputs.VERSION }}.tar.gz"
