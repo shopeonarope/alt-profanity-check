@@ -4,6 +4,7 @@
 
 * scikit-learn to 1.5.0
 * Drop of Python 3.8 and updated README
+* Updates on Github Actions
 
 ## Version 1.4.2
 
