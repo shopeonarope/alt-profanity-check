@@ -6,10 +6,10 @@
 # https://futurestud.io/tutorials/github-actions-run-a-workflow-when-creating-a-tag
 #
 name: "Release"
-on:  
+on:
   push:
     tags:
-      - 'v*'
+      - "v*"
 jobs:
   pypi_upload:
     runs-on: ubuntu-latest
@@ -20,15 +20,15 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.12"  # Latest no need to change as one copy will be delivered
-      # 
+          python-version: "3.12" # Latest no need to change as one copy will be delivered
+      #
       # Get tag:
-      # 
+      #
       # https://github.com/orgs/community/discussions/26686
-      # 
+      #
       - name: Get the version
         id: get_version
-        run: echo ::set-output name=VERSION::${GITHUB_REF/refs\/tags\/v/}
+        run: echo "VERSION=${GITHUB_REF/refs/tags/v/}" >> $GITHUB_OUTPUT
       # - run "echo "Uploading as ${TWINE_USERNAME}"
       - run: |
           python -m pip install --upgrade pip
