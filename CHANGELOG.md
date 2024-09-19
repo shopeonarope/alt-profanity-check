@@ -1,5 +1,11 @@
 # Changelog
 
+## Version 1.5.2
+
+- scikit-learn to 1.5.2
+- numpy to 2.1.1
+- joblib to 1.4.2
+
 ## Version 1.5.1
 
 - scikit-learn to 1.5.1
