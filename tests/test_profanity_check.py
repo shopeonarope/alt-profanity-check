@@ -13,8 +13,10 @@ def test_accuracy():
         "fuck you",
         "fUcK u",
         "GO TO hElL, you dirty scum",
+        "oh, my god",
+        "oh my god, what are you doing?",
     ]
-    assert list(predict(texts)) == [0, 1, 0, 1, 1, 1]
+    assert list(predict(texts)) == [0, 1, 0, 1, 1, 1, 1, 1]
 
     probabilities = predict_prob(texts)
     for i in range(len(probabilities)):
